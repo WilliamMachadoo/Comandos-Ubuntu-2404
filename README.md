@@ -2,7 +2,7 @@
 Observações: comando sudo concede privilégio de administrador<br> 
 apt: gerenciador de pacotes<br>
  
-**sudo apt update**: Verifica se há versões novas dos programas que você pode instalar ou já tem no sistema.<br>
+**sudo apt update** : Verifica se há versões novas dos programas que você pode instalar ou já tem no sistema.<br>
 - Atualiza a lista de pacotes disponíveis no repositório.<br>
   - Exemplo: como dar uma olhada no “catálogo” mais recente de aplicativos e atualizações antes de instalar algo.<br>
  
@@ -25,7 +25,6 @@ apt: gerenciador de pacotes<br>
 **sudo ./VBoxLinuxAdditions.run**
 Executa a aplicação disponível no diretório que acessou e instala os recursos<br>
  
-**lsmod | grep vbox lsmod**: 
-- Lista módulos carregados no Kernel 
-  - grep: funciona como um filtro para pesquisar apenas as linhas que contenham o texto que deseja pesquisar (nesse caso, vbox) 
+**lsmod | grep**: Lista módulos carregados no Kernel<br>
+  - grep: funciona como um filtro para pesquisar apenas as linhas que contenham o texto que deseja pesquisar (nesse caso, vbox)<br> 
 vbox: prefixo que inicia normalmente os nomes dos módulos do VirtualBox
